@@ -1,0 +1,263 @@
+Mon Jul 22 17:00:27 EDT 2024
+hostname: inf011
+
+Mon Jul 22 17:00:28 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 545.23.08              Driver Version: 545.23.08    CUDA Version: 12.3     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla T4                       On  | 00000000:12:00.0 Off |                    0 |
+| N/A   50C    P8              10W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+1
+
+Using device: cuda
+Epoch 0, Loss: 2.6418763317559897, L_bead_necessary: 0.7956204414367676, L_adj_necessary: 0.0253521129488945
+Epoch 10, Loss: 1.1837587243632266, L_bead_necessary: 0.7956204414367676, L_adj_necessary: 0.008450704626739025
+Epoch 20, Loss: 1.116254752246957, L_bead_necessary: 0.798561155796051, L_adj_necessary: 0.002770083025097847
+Epoch 30, Loss: 0.9789576257530012, L_bead_necessary: 0.7925925850868225, L_adj_necessary: 0.020057305693626404
+Epoch 40, Loss: 0.917774511324732, L_bead_necessary: 0.798561155796051, L_adj_necessary: 0.002770083025097847
+Epoch 50, Loss: 0.8214322982650054, L_bead_necessary: 0.804347813129425, L_adj_necessary: 0.005586592014878988
+Epoch 60, Loss: 0.7369940329539149, L_bead_necessary: 0.7913669347763062, L_adj_necessary: 0.002770083025097847
+Epoch 70, Loss: 0.701729552526223, L_bead_necessary: 0.7941176295280457, L_adj_necessary: 0.011363636702299118
+Epoch 80, Loss: 0.7073708041718132, L_bead_necessary: 0.7686567306518555, L_adj_necessary: 0.017341040074825287
+Epoch 90, Loss: 0.6230396322513881, L_bead_necessary: 0.7857142686843872, L_adj_necessary: 0.0
+Epoch 100, Loss: 0.6094013305086838, L_bead_necessary: 0.7426470518112183, L_adj_necessary: 0.011363636702299118
+Epoch 110, Loss: 0.6325026970160635, L_bead_necessary: 0.8161764740943909, L_adj_necessary: 0.011363636702299118
+Epoch 120, Loss: 0.5750993273760143, L_bead_necessary: 0.7629629373550415, L_adj_necessary: 0.014326647855341434
+Epoch 130, Loss: 0.5800987613044287, L_bead_necessary: 0.7279411554336548, L_adj_necessary: 0.011363636702299118
+Epoch 140, Loss: 0.5621449211710378, L_bead_necessary: 0.6962962746620178, L_adj_necessary: 0.014326647855341434
+Epoch 150, Loss: 0.5469710220239664, L_bead_necessary: 0.6715328693389893, L_adj_necessary: 0.008450704626739025
+Epoch 160, Loss: 0.5418225482106209, L_bead_necessary: 0.654411792755127, L_adj_necessary: 0.011363636702299118
+Epoch 170, Loss: 0.5448436238655918, L_bead_necessary: 0.6159420013427734, L_adj_necessary: 0.005586592014878988
+Epoch 180, Loss: 0.528105072441854, L_bead_necessary: 0.6911764740943909, L_adj_necessary: 0.011363636702299118
+Epoch 190, Loss: 0.5223537901514455, L_bead_necessary: 0.5142857432365417, L_adj_necessary: 0.0
+Epoch 200, Loss: 0.5191530004143715, L_bead_necessary: 0.4285714328289032, L_adj_necessary: 0.020408162847161293
+Epoch 210, Loss: 0.5093925965459724, L_bead_necessary: 0.43382352590560913, L_adj_necessary: 0.011363636702299118
+Epoch 220, Loss: 0.5035715332156734, L_bead_necessary: 0.3695652186870575, L_adj_necessary: 0.005586592014878988
+Epoch 230, Loss: 0.499344699437681, L_bead_necessary: 0.37681159377098083, L_adj_necessary: 0.005586592014878988
+Epoch 240, Loss: 0.5030898096530061, L_bead_necessary: 0.3602941036224365, L_adj_necessary: 0.011363636702299118
+Epoch 250, Loss: 0.49070925310646235, L_bead_necessary: 0.277372270822525, L_adj_necessary: 0.008450704626739025
+Epoch 260, Loss: 0.5546396659393059, L_bead_necessary: 0.36090224981307983, L_adj_necessary: 0.020408162847161293
+Epoch 270, Loss: 0.48560388068619526, L_bead_necessary: 0.25735294818878174, L_adj_necessary: 0.011363636702299118
+Epoch 280, Loss: 0.48197245158647234, L_bead_necessary: 0.25925925374031067, L_adj_necessary: 0.014326647855341434
+Epoch 290, Loss: 0.4781831482915502, L_bead_necessary: 0.21014492213726044, L_adj_necessary: 0.005586592014878988
+Epoch 300, Loss: 0.4778392715281562, L_bead_necessary: 0.10294117778539658, L_adj_necessary: 0.011363636702299118
+Epoch 310, Loss: 0.4878611118385666, L_bead_necessary: 0.13970588147640228, L_adj_necessary: 0.011363636702299118
+Epoch 320, Loss: 0.47367360885990295, L_bead_necessary: 0.1304347813129425, L_adj_necessary: 0.005586592014878988
+Epoch 330, Loss: 0.4720151518520556, L_bead_necessary: 0.18656715750694275, L_adj_necessary: 0.017341040074825287
+Epoch 340, Loss: 0.4654376777379136, L_bead_necessary: 0.12142857164144516, L_adj_necessary: 0.0
+Epoch 350, Loss: 0.46694346289885674, L_bead_necessary: 0.09420289844274521, L_adj_necessary: 0.005586592014878988
+Epoch 360, Loss: 0.46622456818034774, L_bead_necessary: 0.12408759444952011, L_adj_necessary: 0.008450704626739025
+Epoch 370, Loss: 0.4647427643992399, L_bead_necessary: 0.10687022656202316, L_adj_necessary: 0.026706231757998466
+Epoch 380, Loss: 0.46122193120812116, L_bead_necessary: 0.05147058889269829, L_adj_necessary: 0.011363636702299118
+Epoch 390, Loss: 0.4596110576077511, L_bead_necessary: 0.036496348679065704, L_adj_necessary: 0.008450704626739025
+Epoch 400, Loss: 0.4646587021256748, L_bead_necessary: 0.036496348679065704, L_adj_necessary: 0.008450704626739025
+Epoch 410, Loss: 0.6096849464272198, L_bead_necessary: 0.5395683646202087, L_adj_necessary: 0.002770083025097847
+Epoch 420, Loss: 0.45535581272683645, L_bead_necessary: 0.028985507786273956, L_adj_necessary: 0.005586592014878988
+Epoch 430, Loss: 0.45459914142756086, L_bead_necessary: 0.02857142873108387, L_adj_necessary: 0.0
+Epoch 440, Loss: 0.4546716537914778, L_bead_necessary: 0.029411764815449715, L_adj_necessary: 0.011363636702299118
+Epoch 450, Loss: 0.6664119067160706, L_bead_necessary: 0.2867647111415863, L_adj_necessary: 0.011363636702299118
+Epoch 460, Loss: 0.45173422482452896, L_bead_necessary: 0.021739130839705467, L_adj_necessary: 0.005586592014878988
+Epoch 470, Loss: 0.4509961663108123, L_bead_necessary: 0.04316546767950058, L_adj_necessary: 0.002770083025097847
+Epoch 480, Loss: 0.45614623341121174, L_bead_necessary: 0.036496348679065704, L_adj_necessary: 0.008450704626739025
+Epoch 490, Loss: 0.45405804495278157, L_bead_necessary: 0.02158273383975029, L_adj_necessary: 0.002770083025097847
+Epoch 500, Loss: 0.4496853792794833, L_bead_necessary: 0.021739130839705467, L_adj_necessary: 0.005586592014878988
+Epoch 510, Loss: 0.44931212922460156, L_bead_necessary: 0.014598540030419827, L_adj_necessary: 0.008450704626739025
+Epoch 520, Loss: 0.45135982067961444, L_bead_necessary: 0.02222222276031971, L_adj_necessary: 0.014326647855341434
+Epoch 530, Loss: 0.44757983621798064, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 540, Loss: 0.44764970850787666, L_bead_necessary: 0.043795619159936905, L_adj_necessary: 0.008450704626739025
+Epoch 550, Loss: 0.449709444806764, L_bead_necessary: 0.007352941203862429, L_adj_necessary: 0.011363636702299118
+Epoch 560, Loss: 0.4470740897875083, L_bead_necessary: 0.014598540030419827, L_adj_necessary: 0.008450704626739025
+Epoch 570, Loss: 0.4475755482912064, L_bead_necessary: 0.036496348679065704, L_adj_necessary: 0.008450704626739025
+Epoch 580, Loss: 0.44688648644246554, L_bead_necessary: 0.014598540030419827, L_adj_necessary: 0.008450704626739025
+Epoch 590, Loss: 0.44568861742552957, L_bead_necessary: 0.007194244768470526, L_adj_necessary: 0.002770083025097847
+Epoch 600, Loss: 0.6745470185421015, L_bead_necessary: 0.08633093535900116, L_adj_necessary: 0.002770083025097847
+Epoch 610, Loss: 0.44579072382889295, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 620, Loss: 0.4472463006251737, L_bead_necessary: 0.02222222276031971, L_adj_necessary: 0.014326647855341434
+Epoch 630, Loss: 0.4461943139763255, L_bead_necessary: 0.007462686393409967, L_adj_necessary: 0.017341040074825287
+Epoch 640, Loss: 0.44567411098825305, L_bead_necessary: 0.007462686393409967, L_adj_necessary: 0.017341040074825287
+Epoch 650, Loss: 0.4450053227575202, L_bead_necessary: 0.014814814552664757, L_adj_necessary: 0.014326647855341434
+Epoch 660, Loss: 0.4456966166433535, L_bead_necessary: 0.014388489536941051, L_adj_necessary: 0.002770083025097847
+Epoch 670, Loss: 0.4437991779493658, L_bead_necessary: 0.021897809579968452, L_adj_necessary: 0.008450704626739025
+Epoch 680, Loss: 0.4433813754665224, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 690, Loss: 0.443450203067378, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 700, Loss: 0.4499376660506976, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 710, Loss: 0.4435556746627155, L_bead_necessary: 0.014705882407724857, L_adj_necessary: 0.011363636702299118
+Epoch 720, Loss: 0.4427225885422606, L_bead_necessary: 0.007299270015209913, L_adj_necessary: 0.008450704626739025
+Epoch 730, Loss: 0.44336033836007116, L_bead_necessary: 0.021897809579968452, L_adj_necessary: 0.008450704626739025
+Epoch 740, Loss: 0.441700018393366, L_bead_necessary: 0.007194244768470526, L_adj_necessary: 0.002770083025097847
+Epoch 750, Loss: 0.4425625425812445, L_bead_necessary: 0.007299270015209913, L_adj_necessary: 0.008450704626739025
+Epoch 760, Loss: 0.44921906912013104, L_bead_necessary: 0.0071428571827709675, L_adj_necessary: 0.0
+Epoch 770, Loss: 0.44073222824739977, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Epoch 780, Loss: 0.4413123549452346, L_bead_necessary: 0.0071428571827709675, L_adj_necessary: 0.0
+Epoch 790, Loss: 0.4414368134188025, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 800, Loss: 0.44284699002378863, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 810, Loss: 0.44476551112571827, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 820, Loss: 0.4417190366669705, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 830, Loss: 0.4409948610553616, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 840, Loss: 0.44047822434651224, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 850, Loss: 0.4400641863283358, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 860, Loss: 0.45210707868498407, L_bead_necessary: 0.014285714365541935, L_adj_necessary: 0.0
+Epoch 870, Loss: 0.440514406797133, L_bead_necessary: 0.021739130839705467, L_adj_necessary: 0.005586592014878988
+Epoch 880, Loss: 0.43932746973525927, L_bead_necessary: 0.0071428571827709675, L_adj_necessary: 0.0
+Epoch 890, Loss: 0.44095902129223474, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 900, Loss: 0.44412510069577316, L_bead_necessary: 0.007407407276332378, L_adj_necessary: 0.014326647855341434
+Epoch 910, Loss: 0.4401796595168937, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 920, Loss: 0.4428671793718087, L_bead_necessary: 0.007352941203862429, L_adj_necessary: 0.011363636702299118
+Epoch 930, Loss: 0.4410175871912782, L_bead_necessary: 0.014814814552664757, L_adj_necessary: 0.014326647855341434
+Epoch 940, Loss: 0.44079155312164836, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 950, Loss: 0.4404882405933581, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 960, Loss: 0.4409267934137269, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 970, Loss: 0.43892668446427896, L_bead_necessary: 0.014388489536941051, L_adj_necessary: 0.002770083025097847
+Epoch 980, Loss: 0.4392409420719272, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 990, Loss: 0.5185886366586936, L_bead_necessary: 0.028985507786273956, L_adj_necessary: 0.005586592014878988
+Epoch 1000, Loss: 0.4398190410121491, L_bead_necessary: 0.007299270015209913, L_adj_necessary: 0.008450704626739025
+Epoch 1010, Loss: 0.4390086028136705, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1020, Loss: 0.4401513500825355, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1030, Loss: 0.43971517078186334, L_bead_necessary: 0.007352941203862429, L_adj_necessary: 0.011363636702299118
+Epoch 1040, Loss: 0.44143360143429355, L_bead_necessary: 0.0, L_adj_necessary: 0.020408162847161293
+Epoch 1050, Loss: 0.43825442324343483, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1060, Loss: 0.4404083142547231, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1070, Loss: 0.43859596687712166, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1080, Loss: 0.4406053300358747, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1090, Loss: 0.43933483526037126, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1100, Loss: 0.4390761244466136, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Epoch 1110, Loss: 0.4383920883661822, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1120, Loss: 0.44064855261852864, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1130, Loss: 0.4390119094597666, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1140, Loss: 0.6029740216700654, L_bead_necessary: 0.13235294818878174, L_adj_necessary: 0.011363636702299118
+Epoch 1150, Loss: 0.43773512493782235, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Epoch 1160, Loss: 0.4393196531032261, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1170, Loss: 0.43851276553775137, L_bead_necessary: 0.007299270015209913, L_adj_necessary: 0.008450704626739025
+Epoch 1180, Loss: 0.44110141522005986, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 1190, Loss: 0.4378018950553317, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1200, Loss: 0.6432473021118265, L_bead_necessary: 0.029197080060839653, L_adj_necessary: 0.008450704626739025
+Epoch 1210, Loss: 0.43877162529449715, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1220, Loss: 0.43834598056579893, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1230, Loss: 0.43920776416596613, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1240, Loss: 0.43987949608187926, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 1250, Loss: 0.44071036687022763, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 1260, Loss: 0.438462290873653, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1270, Loss: 0.6890715498673289, L_bead_necessary: 0.04511278122663498, L_adj_necessary: 0.020408162847161293
+Epoch 1280, Loss: 0.4381964400410652, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1290, Loss: 0.4377204163159293, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1300, Loss: 0.44143113729200867, L_bead_necessary: 0.007633587811142206, L_adj_necessary: 0.026706231757998466
+Epoch 1310, Loss: 0.43729827400100857, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1320, Loss: 0.4385294575832392, L_bead_necessary: 0.007246376946568489, L_adj_necessary: 0.005586592014878988
+Epoch 1330, Loss: 0.43848837806206, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1340, Loss: 0.5837596750573109, L_bead_necessary: 0.058394160121679306, L_adj_necessary: 0.008450704626739025
+Epoch 1350, Loss: 0.4375234927001752, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1360, Loss: 0.43788841594206657, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1370, Loss: 0.4394392282947114, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1380, Loss: 0.43853600480054555, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1390, Loss: 0.4398907314397787, L_bead_necessary: 0.0, L_adj_necessary: 0.0235294122248888
+Epoch 1400, Loss: 0.4376337627702589, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Epoch 1410, Loss: 0.43661395964384275, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Epoch 1420, Loss: 0.4363819611902153, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Epoch 1430, Loss: 0.4385098743595575, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1440, Loss: 0.43680441485423793, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1450, Loss: 0.4390781410430607, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1460, Loss: 0.43833354315475415, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1470, Loss: 0.4371348035962958, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1480, Loss: 0.4371360723517443, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1490, Loss: 0.4375340619712676, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1500, Loss: 0.43736019499207796, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1510, Loss: 0.4380110663803, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1520, Loss: 0.4383520608669833, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1530, Loss: 0.4380857679796846, L_bead_necessary: 0.007352941203862429, L_adj_necessary: 0.011363636702299118
+Epoch 1540, Loss: 0.4374591763547965, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1550, Loss: 0.43766745574355714, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1560, Loss: 0.43706773452852904, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1570, Loss: 0.43793243546234933, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1580, Loss: 0.43729290142655375, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1590, Loss: 0.43658341863437705, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1600, Loss: 0.43739037609806186, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1610, Loss: 0.43865358664801246, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 1620, Loss: 0.4380892853179064, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Epoch 1630, Loss: 0.43744846332303594, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1640, Loss: 0.43786612321671686, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1650, Loss: 0.43822306383548204, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1660, Loss: 0.43747816463062345, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1670, Loss: 0.4381083064957669, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 1680, Loss: 0.4387532219682869, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 1690, Loss: 0.43776700779011374, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1700, Loss: 2.3177643608497944, L_bead_necessary: 0.051851850003004074, L_adj_necessary: 0.014326647855341434
+Epoch 1710, Loss: 0.43760018964347086, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1720, Loss: 0.43824666907128534, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 1730, Loss: 0.6156427793940039, L_bead_necessary: 0.05223880708217621, L_adj_necessary: 0.017341040074825287
+Epoch 1740, Loss: 0.43848067178194855, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 1750, Loss: 0.436793945243239, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1760, Loss: 0.4389145341358687, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1770, Loss: 0.4365610717630357, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1780, Loss: 0.4370813410435068, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1790, Loss: 0.43835731682024504, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 1800, Loss: 0.43831028506944053, L_bead_necessary: 0.007407407276332378, L_adj_necessary: 0.014326647855341434
+Epoch 1810, Loss: 0.43840359378802146, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 1820, Loss: 0.438156438187549, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1830, Loss: 0.4372820494598464, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1840, Loss: 0.43785699272626327, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 1850, Loss: 0.43689218124276713, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1860, Loss: 0.43716065679725846, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1870, Loss: 0.5335078440398272, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1880, Loss: 0.4365875422170288, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1890, Loss: 0.4361551473407369, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1900, Loss: 0.4375834995194485, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1910, Loss: 0.4374897600090327, L_bead_necessary: 0.007352941203862429, L_adj_necessary: 0.011363636702299118
+Epoch 1920, Loss: 0.4369817038899974, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1930, Loss: 0.43758088973791975, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1940, Loss: 0.5871084041501347, L_bead_necessary: 0.05797101557254791, L_adj_necessary: 0.005586592014878988
+Epoch 1950, Loss: 0.43747899312722055, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1960, Loss: 0.43616754902820837, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 1970, Loss: 0.4382859245334801, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 1980, Loss: 0.4375781485516774, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 1990, Loss: 0.43858437977339093, L_bead_necessary: 0.0, L_adj_necessary: 0.020408162847161293
+Epoch 2000, Loss: 0.43792006200865696, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 2010, Loss: 0.43761140445345326, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 2020, Loss: 0.43689372324825904, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 2030, Loss: 0.43910278431875144, L_bead_necessary: 0.021739130839705467, L_adj_necessary: 0.005586592014878988
+Epoch 2040, Loss: 0.43787966997999894, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 2050, Loss: 0.4361405784754377, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 2060, Loss: 0.43728913382480017, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 2070, Loss: 0.43789754419734606, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 2080, Loss: 0.43683469385692947, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 2090, Loss: 0.4365783971391226, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 2100, Loss: 0.4368619141763223, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 2110, Loss: 0.4380239783933288, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 2120, Loss: 0.43777060962012526, L_bead_necessary: 0.007407407276332378, L_adj_necessary: 0.014326647855341434
+Epoch 2130, Loss: 0.43792382121870393, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 2140, Loss: 0.4368969916513092, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 2150, Loss: 0.43772359443338293, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 2160, Loss: 0.43754838293320253, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 2170, Loss: 0.4380249431338406, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 2180, Loss: 0.43647852187093933, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 2190, Loss: 0.43881037434636566, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 2200, Loss: 0.4374018286403857, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 2210, Loss: 0.4384299366881973, L_bead_necessary: 0.0, L_adj_necessary: 0.011363636702299118
+Epoch 2220, Loss: 0.43839152796488057, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 2230, Loss: 0.4359796317533198, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 2240, Loss: 0.43756097351249895, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 2250, Loss: 0.43655904609906043, L_bead_necessary: 0.0, L_adj_necessary: 0.005586592014878988
+Epoch 2260, Loss: 0.6473481948046308, L_bead_necessary: 0.021739130839705467, L_adj_necessary: 0.005586592014878988
+Epoch 2270, Loss: 0.43645594516082814, L_bead_necessary: 0.0, L_adj_necessary: 0.002770083025097847
+Epoch 2280, Loss: 0.438094647307145, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 2290, Loss: 0.44028897003123635, L_bead_necessary: 0.0, L_adj_necessary: 0.014326647855341434
+Epoch 2300, Loss: 0.43855959600523897, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 2310, Loss: 0.43685917517072276, L_bead_necessary: 0.0, L_adj_necessary: 0.008450704626739025
+Epoch 2320, Loss: 0.43964625381325423, L_bead_necessary: 0.0, L_adj_necessary: 0.017341040074825287
+Epoch 2330, Loss: 0.4359114676646545, L_bead_necessary: 0.0, L_adj_necessary: 0.0
+Early stopping triggered
+job finished at:
+Tue Jul 23 09:56:04 EDT 2024
