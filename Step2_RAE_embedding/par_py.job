@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH --job-name=batch64
+#SBATCH -t 60:00:00
+#SBATCH -A obr_tinkercliff
+#SBATCH -p t4_normal_q
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:1
+#SBATCH --ntasks-per-node=1
+#SBATCH -o ./job_outputs/slurm-%j-par.out
+
+date
+
+echo "hostname: $HOSTNAME"; echo
+
+
+#########################################
+
+# module load apps site/tinkercliffs/easybuild/setup
+module load Anaconda3
+eval "$(conda shell.bash hook)"
+conda activate pytorch_gpu
+
+nvidia-smi
+
+echo $SLURM_NTASKS; echo
+
+python 	no_Reg_loss.py
+
+#
+echo "job finished at:"
+date
