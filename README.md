@@ -50,9 +50,3 @@ The workflow is divided into three main stages:
 
 - Identified surfactants with an $R_{int}$ of up to **1641.5 s/m**, which is significantly higher than commercial alternatives like DTAB.
 - Demonstrated that strategic manipulation of the surfactant head group is the primary driver for maximizing transport resistance.
-
-## Citation
-
-If you use this code or the findings from the manuscript in your research, please cite:
-
-Wang, X., Zhang, H., Yu, X., Ham, S., Lattimer, B., & Qiao, R. (2025). *Active Learning-Based Discovery of Surfactant Molecules as Alkane Transport Inhibitors*.
