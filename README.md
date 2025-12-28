@@ -17,8 +17,8 @@ The workflow is divided into three main stages:
     - **Synthetic Feasibility:** Using scores like GAscore (geometry-based) and GASAscore (reaction-step based) to assess ease of synthesis.
 - **Output:** A finalized set of candidate molecules ready for embedding and simulation.
 
-### Step 2: RAE Embedding (Molecular Representation)
-- **Model:** Developed a **Relational Autoencoder (RAE)** to generate compressed molecular graph representations.
+### Step 2: AE Embedding (Molecular Representation)
+- **Model:** Developed a **Autoencoder (AE)** to generate compressed molecular graph representations.
 - **Architecture:** 
     - Uses message-passing neural networks to process graph-based molecular data (nodes as Martini v3 beads, edges as chemical bonds).
     - Encodes molecules into a **16-dimensional latent space** (z-vectors).
@@ -41,7 +41,7 @@ The workflow is divided into three main stages:
 │   ├── Rint.csv                  # Calculated interfacial transport resistance values
 │   └── Rint_with_features.csv    # Combined dataset of features and Rint results
 ├── Step1_chemical_space_design/  # Initial generation and filtering logic
-├── Step2_RAE_embedding/          # Relational Autoencoder for molecular embeddings
+├── Step2_AE_embedding/           # Autoencoder for embedding molecular graphs
 ├── Step3_GPR_Bayesian/           # Active learning rounds (GPR + Bayesian Optimization)
 └── Surfactant_Discovery.pdf      # Detailed manuscript of the research
 ```
