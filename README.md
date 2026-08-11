@@ -45,6 +45,24 @@ The workflow is divided into three main stages:
 ├── Step3_GPR_Bayesian/           # Active learning rounds (GPR + Bayesian Optimization)
 └── Surfactant_Discovery.pdf      # Detailed manuscript of the research
 ```
+## Software Requirements
+
+The computational workflow was implemented primarily in Python. Major Python dependencies include:
+
+- NumPy
+- pandas
+- PyTorch
+- PyTorch Geometric
+- GPyTorch
+- scikit-learn
+- SciPy
+- Matplotlib
+
+For molecular simulations:
+- GROMACS 2021.3
+- Packmol
+
+Additional dependencies and implementation details for individual workflow steps are provided in the corresponding scripts and Jupyter notebooks.
 
 ## Results
 
